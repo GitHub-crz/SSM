@@ -8,5 +8,6 @@ public class MyTest {
         ApplicationContext context=new AnnotationConfigApplicationContext(Userconfig.class);
         User user=context.getBean("getUser",User.class);
         System.out.println(user.toString());
+        //
     }
 }
